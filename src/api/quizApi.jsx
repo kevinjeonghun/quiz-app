@@ -8,7 +8,7 @@ export const fetchQuiz = async () => {
         }
     
         // Jika tidak ada di localStorage, lakukan fetch dari API
-        const url = 'https://opentdb.com/api.php?amount=10&type=multiple';
+        const url = 'https://opentdb.com/api.php?amount=10&category=31&difficulty=easy&type=multiple';
         try {
         const response = await fetch(url);
     
